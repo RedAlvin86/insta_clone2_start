@@ -60,7 +60,7 @@ class SearchPage extends StatelessWidget {
       ),
     );
   }
-
+  //Error
   Widget _buildListItem(BuildContext context, DocumentSnapshot document) {
     return Hero(
       tag: document.documentID,
